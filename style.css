@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(98, 213, 128),
+    rgb(81, 178, 106),
+    rgb(45, 105, 63)
+  );
+  color: white;
+  text-align: center;
+  padding: 50px 10px 10px;
+
+  p {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  nav {
+    text-align: left;
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 10px;
+
+      &:hover {
+        background-color: rgb(64, 145, 84);
+        color: rgb(23, 53, 32);
+        border-radius: 6px;
+      }
+    }
+  }
+}
