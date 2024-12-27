@@ -36,3 +36,53 @@ header {
     }
   }
 }
+
+@font-face {
+  font-family: "idroid";
+  src: local(idroid), url(./fontes/idroid.otf);
+}
+body {
+  background-color: #84e1ad;
+}
+main {
+  #curiosidades {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 900px;
+    border-radius: 0 0 10px 10px;
+
+    article {
+      h1,
+      h2 {
+        font-family: "idroid";
+        color: rgb(45, 105, 63);
+      }
+      h1 {
+        font-size: 2em;
+      }
+    }
+  }
+  .extra {
+    background-color: #c5ebd6;
+    border-radius: 10px;
+    width: 100%;
+    p,
+    h3 {
+      padding: 10px;
+    }
+
+    h3 {
+      background-color: #4da966;
+      color: white;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+}
+
+footer {
+  background-color: rgb(45, 105, 63);
+  text-align: center;
+  color: white;
+}
